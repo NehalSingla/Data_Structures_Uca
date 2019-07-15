@@ -19,31 +19,6 @@ int main(int argc,char *argv[])
         printf("%d ",arr[i]);
 
     }
-    int j=0
-    int arr1[argc-1];
-    for(int i=0;i<argc;i++)
-    {
-
-        if(arr[i]>0)
-        {
-
-            arr1[j]=arr[i];
-            j+2;
-
-        }
-        else
-        {
-             arr[j]=arr[i];
-            j+2;
-
-        }
-    }
-           for(int i=0;i<argc;i++)
-           {
-
-               printf("%d ",arr1[i]);
-           }
-
-
+    
     return 0;
 }
